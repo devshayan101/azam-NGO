@@ -13,8 +13,11 @@
     margin: auto;
     padding-left: 1rem;
     // padding-right: 1rem;
+
+    @include mobile{
     transform: translateY(70px);
 
+    }
     .textContainer {
       width: 50%;
       height: 100%;
