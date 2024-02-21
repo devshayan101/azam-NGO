@@ -5,13 +5,15 @@
   overflow: hidden;
   background: linear-gradient(180deg, #0c0c1d, #111132);
   position: relative;
+  
 
   .wrapper {
     max-width: 1366px;
     height: 100%;
     margin: auto;
     padding-left: 1rem;
-    padding-right: 1rem;
+    // padding-right: 1rem;
+    transform: translateY(70px);
 
     .textContainer {
       width: 50%;
@@ -86,7 +88,7 @@
       top: unset;
       bottom: 0;
       opacity: 1;
-      transform: translateY(-70px);
+      // transform: translateY(-70px);
 
 
     }
