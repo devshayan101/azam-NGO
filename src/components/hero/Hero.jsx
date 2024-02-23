@@ -1,6 +1,5 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
-
 const textVariants = {
   initial: {
     x: -500,
@@ -57,6 +56,7 @@ const Hero = () => {
               JOIN OUR COMMUNITY
             </motion.button>
             <motion.button variants={textVariants}>LEARN MORE</motion.button>
+              
           </motion.div>
           <motion.img
             variants={textVariants}

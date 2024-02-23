@@ -8,7 +8,7 @@ import MajliseFarooq from "./pages/MajliseFarooq";
 import SunnatTijaratAssembly from "./pages/SunnatTijaratAssembly";
 import SunnatTababatAssembly from "./pages/SunnatTababatAssembly";
 import SignInPage from "./pages/SignInPage";
-
+import Form from "./components/form/Form";
 function App() {
   return (
       <BrowserRouter>
@@ -23,6 +23,8 @@ function App() {
           <Route exact path="/sunnat-tijarat-assembly" element={<SunnatTijaratAssembly />} />
           <Route exact path="/sunnat-tijarat-assembly" element={<SunnatTababatAssembly />} />
           <Route exact path="/sign-in" element={<SignInPage />} />
+          <Route exact path="/sign-up" element={<SignInPage />} />
+          <Route exact path="/registration-form" element={<Form />} />
 
         </Routes>  
       </BrowserRouter>    

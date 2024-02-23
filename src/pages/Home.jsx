@@ -8,6 +8,7 @@ import Navbar from "../components/navbar/Navbar";
 import Parallax from "../components/parallax/Parallax";
 import Portfolio from "../components/portfolio/Portfolio";
 import Services from "../components/services/Services";
+import Form from "../components/form/Form";
 
 const Home = () => {
   // let match = useRouteMatch();
@@ -32,7 +33,9 @@ const Home = () => {
       <section id="Contact">
         <Contact />
       </section>
-      
+      <section id="Form">
+        <Form />
+      </section>
     </div>
   );
 };
